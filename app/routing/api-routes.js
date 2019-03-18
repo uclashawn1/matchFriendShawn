@@ -22,33 +22,57 @@ module.exports = function (app) {
   /* *** Updates an array of friends "database" array and sends back the json form of the most compatible
    new friend */
   app.post('/api/friends', function (req, res) {
-      // newFriend is the user that filled out the survey
+      /* A newFriend is the user that filled out the survey. Declare variable, set equal to form data.
+        The variable newFriend will take in the data entered into the form by new friend thereafter
+        representing that data, but data needs to be processed to separate out the content we need.
+          -req.body properties come from a form post where the form data (which is submitted in the body 
+            contents) has been parsed into properties of the body tag.
+          -don't trust user content. Use middleware to parse incoming requests before handling
+      */
       var newFriend = req.body;
 
-      // compute best match from scores
+      /* compute best match from scores using for loop method statement with if/else method statement
+          -Loops declaration of variable, condition, increment of variable
+          -use let or var; const never changes (don't use in loop because variable constantly changes)
+        posssible changes - turnary operators
+        IIFEs - Immediately Invokable Function Expressions
+      */
       var bestMatch = {};
-
-      for(var i = 0; i < newFriend.scores.length; i++) {
+      /* Loop through to change newfriendscore end points from score+description to only score if endpoints
+          selected by user. Else the other selections can be found in the body of the form content as 
+          integers. Its location is the value of scores inside of newFriend variable = newFriend.scores.
+          However, it's form content so it has to be parsedInt in order to separated it from unneeded form
+          data.
+          */
+      for(let i = 0; i < newFriend.scores.length; i++) {
+        /* compares, if equal replaces newFriend.score for that index.array with 1 */
         if(newFriend.scores[i] == "1 (Strongly Disagree)") {
           newFriend.scores[i] = 1;
-        } else if(newFriend.scores[i] == "5 (Strongly Agree)") {
+        } 
+        /* compares, if equal replaces newFriend.score for that index.array with 5 */
+        else if(newFriend.scores[i] == "5 (Strongly Agree)") {
           newFriend.scores[i] = 5;
-        } else {
+        } 
+        /* sets all other newFriend.scores equal to their integer value from form data */
+        else {
           newFriend.scores[i] = parseInt(newFriend.scores[i]);
         }
       }
-      /* compare the scores of newFriend with the scores of each friend in the database and find the friend
-       with the smallest difference when each set of scores is compared */
+
+      /* The above also creates an array of scores referenced by using the index method of express and typing
+        newfriend.scores[index]. 
+        compare the scores of newFriend with the scores of each friend in the database and find the friend
+        with the smallest difference when each set of scores is compared */
 
       var bestMatchIndex = 0;
       /* greatest score difference for a question is 4, therefore greatest difference is 4 times # of
        questions in survey */
       var bestMatchDifference = 40;
 
-      for(var i = 0; i < friends.length; i++) {
+      for(let i = 0; i < friends.length; i++) {
         var totalDifference = 0;
 
-        for(var index = 0; index < friends[i].scores.length; index++) {
+        for(let index = 0; index < friends[i].scores.length; index++) {
           var differenceOneScore = Math.abs(friends[i].scores[index] - newFriend.scores[index]);
           totalDifference += differenceOneScore;
         }

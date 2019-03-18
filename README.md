@@ -27,6 +27,6 @@ Set up web servers with Node.js using Express.
 * **Use localhost:4000**
 
 ##### Acknowledgments
-Thanks to [Shaun](https://github.com/fullers) for the idea of using a modal for the alert to enter the required fields
+
 
 ![Alert Modal](/images-readme/alert.PNG?raw=true)
