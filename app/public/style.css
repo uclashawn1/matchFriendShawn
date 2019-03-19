@@ -7,14 +7,14 @@ body{
 }
 
 .jumbotron {
-    background-color: firebrick;
+    background-color: forestgreen;
     color: white;
     opacity: .75;
     margin-top: 20px;
 }
 
 #submit {
-    background: firebrick;
+    background: forestgreen;
 }
 
 #jumbo_h2 {
@@ -28,5 +28,5 @@ body{
 }
 
 .panel-title {
-    color: firebrick;
+    color: forestgreen;
 }
