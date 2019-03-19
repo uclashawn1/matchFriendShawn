@@ -6,59 +6,59 @@
 
 var friends = [ {
     "name" : "Thanos",
-    "photo" : "http://www.mens-hairstylists.com/wp-content/uploads/2015/10/stylish-haircuts-for-men.jpg",
+    "photo" : "https://www.thewrap.com/wp-content/uploads/2018/05/avengers-infinity-war-wildest-fan-theories-thanos.jpg",
     "scores" : [1,1,4,5,2,4,1,3,2,4]
 }, {
     "name" : "War Machine",
-    "photo" : "http://science-all.com/images/wallpapers/girl-pictures/girl-pictures-23.jpg",
+    "photo" : "https://www.mordeo.org/files/uploads/2018/04/War-Machine-In-Avengers-Infinity-War-HD-Mobile-Wallpaper-950x1689.jpg",
     "scores" : [3,4,2,3,1,5,2,4,3,2]
 }, {
     "name" : "The Hulk",
-    "photo" : "http://images.zap2it.com/assets/p9257057_n160758_cc_v4_aa/guys-with-kids.jpg",
+    "photo" : "https://cdn.images.express.co.uk/img/dynamic/36/590x/secondary/hulk-avengers-infinity-war-1442812.jpg?r=1533126924113",
     "scores" : [5,3,4,2,5,3,4,3,1,4]
 }, {
     "name" : "Black Widow",
-    "photo" : "http://www.tenerewilliams.com/wp-content/uploads/2013/02/Naomi-Grossman-headshot.jpg",
+    "photo" : "https://www.syfy.com/sites/syfy/files/styles/1200x680/public/2018/11/black_widow_2.jpg",
     "scores" : [5,3,2,5,3,2,5,4,2,5]
 }, {
     "name" : "Thor",
-    "photo" : "https://s-media-cache-ak0.pinimg.com/236x/e6/58/db/e658dbeb3518edeab6a19516b8146137.jpg",
+    "photo" : "https://imgc.allpostersimages.com/img/print/posters/avengers-infinity-war-thor-and-stormbreaker_a-G-15605542-9761631.jpg",
     "scores" : [4,1,3,4,1,4,3,2,4,2]
 }, {
     "name" : "Captain America",
-    "photo" : "http://cdn3.thr.com/sites/default/files/2013/02/emma_roberts.jpg",
+    "photo" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfnl2ULCXnfZpPHLNRDPXKc5oVP6to_IlyVHmq-ueAaFeZ7d3F",
     "scores" : [4,5,4,5,4,1,3,3,5,4]
 }, {
     "name" : "Captain Marvel",
-    "photo" : "https://s-media-cache-ak0.pinimg.com/564x/02/72/d2/0272d2536de31958c6dcb3bb1b447586.jpg",
+    "photo" : "https://i.pinimg.com/736x/27/5d/41/275d41cc7a602e7e7af1c9763d145259.jpg",
     "scores" : [3,5,4,4,2,2,3,5,4,4]
 }, {
     "name" : "Iron Man",
-    "photo" : "http://kelseyedwardsphoto.com/images/gallery/Sports/74_088_FAVS_MAY_0511.jpg",
+    "photo" : "https://media1.popsugar-assets.com/files/thumbor/_YjaPHBh0SWKwlFBIiIGydPdQPw/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2018/04/30/868/n/1922283/400075105ae773ae4c4e24.21390769_/i/Does-Iron-Man-Die-Avengers-Infinity-War.jpg",
     "scores" : [5,5,4,4,3,3,2,3,1,1]
 }, {
     "name" : "Spiderman",
-    "photo" : "http://1.bp.blogspot.com/-6uw9bbJmPs4/VpISNZB5wOI/AAAAAAAAAag/PAQeixYQ4g8/s1600/Varun%2BDhawan%2BLatest%2BPic.jpg",
+    "photo" : "https://cdn.vox-cdn.com/thumbor/1qTweiB2Eqh4MF2q_5u0NXa2j94=/0x0:2048x1080/1200x800/filters:focal(694x342:1020x668)/cdn.vox-cdn.com/uploads/chorus_image/image/59580327/infinity_war_spider.0.jpg",
     "scores" : [1,5,3,2,3,4,5,2,2,4]
 }, {
     "name" : "Gamora",
-    "photo" : "http://1.bp.blogspot.com/-FMhfNM7lFG4/Ud8XSJsqgLI/AAAAAAAAAIs/uyMyWoJUEk0/s1600/women-medium-wavy-hairstyles.jpg",
+    "photo" : "https://www.thewrap.com/wp-content/uploads/2018/08/avengers-infinity-war-thanos-gamora-plot-hole.jpg",
     "scores" : [1,3,1,1,3,5,3,3,2,1]
 }, {
     "name" : "The Collector",
-    "photo" : "http://d236bkdxj385sg.cloudfront.net/wp-content/uploads/2012/02/brian-white.jpg",
+    "photo" : "https://static2.srcdn.com/wordpress/wp-content/uploads/2018/04/Benicio-del-Toro-as-the-Collector-with-the-Reality-Stone-in-Thor-The-Dark-World.jpg",
     "scores" : [5,2,5,5,4,2,5,2,2,4]
 }, {
     "name" : "Black Panther",
-    "photo" : "http://benhairstyle.com/wp-content/uploads/2014/10/beautiful_hairstyles_for_young_women.jpg",
+    "photo" : "https://heroichollywood.com/wp-content/uploads/2018/11/Avengers_Infinity_War_Black_Panther_Marvel_Studios_Peoples_Choice_Awards.jpg",
     "scores" : [4,5,2,4,2,1,1,3,5,3]
 }, {
     "name" : "Star Lord",
-    "photo" : "https://s-media-cache-ak0.pinimg.com/736x/09/0f/e7/090fe7f53967e0a0da51f12fa147e01d.jpg",
+    "photo" : "https://static1.squarespace.com/static/51b3dc8ee4b051b96ceb10de/t/57f5055b440243d357b3b309/1475675490790/star-lord-rumored-to-have-a-major-role-in-avengers-infinity-war1?format=2500w",
     "scores" : [2,4,3,3,4,3,2,2,1,2]
 }, {
     "name" : "Ebony Maw",
-    "photo" : "http://harvardsol.com/wp-content/uploads/2016/07/impressive-new-haircuts-for-young-men-all-inspirational-article.jpg",
+    "photo" : "https://cdn3.movieweb.com/i/article/pviOntDA5KzMR0Pekt0Px4XFHjUDWX/798:50/Infinity-War-Ebony-Maw-Concept-Art.jpg",
     "scores" : [2,4,3,4,5,2,5,2,5,2]
 }];
 
