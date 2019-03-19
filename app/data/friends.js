@@ -57,6 +57,10 @@ var friends = [ {
     "photo" : "https://static1.squarespace.com/static/51b3dc8ee4b051b96ceb10de/t/57f5055b440243d357b3b309/1475675490790/star-lord-rumored-to-have-a-major-role-in-avengers-infinity-war1?format=2500w",
     "scores" : [2,4,3,3,4,3,2,2,1,2]
 }, {
+    "name" : "Brunnhilde",
+    "photo" : "https://vignette.wikia.nocookie.net/disney/images/d/d0/Thor_Ragnarok_-_Valkyrie.jpg/revision/latest?cb=20171019180629",
+    "scores" : [5,3,4,1,3,5,3,3,2,1]
+}, {
     "name" : "Ebony Maw",
     "photo" : "https://cdn3.movieweb.com/i/article/pviOntDA5KzMR0Pekt0Px4XFHjUDWX/798:50/Infinity-War-Ebony-Maw-Concept-Art.jpg",
     "scores" : [2,4,3,4,5,2,5,2,5,2]

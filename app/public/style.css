@@ -21,6 +21,10 @@ body{
     color: white;
 }
 
+h4 {
+    color: #fff
+}
+
 .btn-primary {
     color: #fff;
     background-color: #337ab7;
