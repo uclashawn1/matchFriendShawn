@@ -20,6 +20,10 @@ body{
 #jumbo_h2 {
     color: white;
 }
+div > .fplace {
+    margin: auto;
+    text-align: center;
+}
 
 h4 {
     color: #fff
