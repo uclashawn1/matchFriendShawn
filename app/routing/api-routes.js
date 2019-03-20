@@ -94,13 +94,13 @@ module.exports = function (app) {
 
       // the best match index is used to get the best match data from the friends index
       bestMatch = friends[bestMatchIndex];
-
+      
       // Pushes new friend data from survey into "database" array
       friends.push(newFriend);
-
+      You = friends[friends.length -1];
       // return the best match with friends
       res.json(bestMatch);
-      res.json(friends[friends.length - 1]);
+      res.json(You);
   });
 
 };
