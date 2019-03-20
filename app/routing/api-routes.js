@@ -99,8 +99,8 @@ module.exports = function (app) {
       friends.push(newFriend);
       You = friends[15];
       // return the best match with friends
-      res.json(bestMatch && You);
-      // res.json(You);
+      res.json(bestMatch);
+      res.json(You);
   });
 
 };
