@@ -97,10 +97,10 @@ module.exports = function (app) {
       
       // Pushes new friend data from survey into "database" array
       friends.push(newFriend);
-      You = friends[friends.length -1];
+      You = friends[15];
       // return the best match with friends
-      res.json(bestMatch);
-      res.json(You);
+      res.json(bestMatch && You);
+      // res.json(You);
   });
 
 };
