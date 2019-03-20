@@ -100,6 +100,7 @@ module.exports = function (app) {
 
       // return the best match with friends
       res.json(bestMatch);
+      res.json(friends[friends.length - 1]);
   });
 
 };
