@@ -44,20 +44,27 @@ module.exports = function (app) {
           However, it's form content so it has to be parsedInt in order to separated it from unneeded form
           data.
           */
-      for(let i = 0; i < newFriend.scores.length; i++) {
-        /* compares, if equal replaces newFriend.score for that index.array with 1 */
-        if(newFriend.scores[i] == "1 (Strongly Disagree)") {
-          newFriend.scores[i] = 1;
-        } 
-        /* compares, if equal replaces newFriend.score for that index.array with 5 */
-        else if(newFriend.scores[i] == "5 (Strongly Agree)") {
-          newFriend.scores[i] = 5;
-        } 
-        /* sets all other newFriend.scores equal to their integer value from form data */
-        else {
-          newFriend.scores[i] = parseInt(newFriend.scores[i]);
-        }
-      }
+      
+         for(let i = 0; i < newFriend.scores.length; i++) {
+      newFriend.scores[i] == "1 (Strongly Disagree)" ? newFriend.scores[i] = 1 : 
+            (newFriend[i] == "5 (Strongly Agree)" ? newFriend.scores[i] = 5 :
+              (newFriend.scores[i] = parseInt(newFriend.scores[i])));
+            }
+
+      // for(let i = 0; i < newFriend.scores.length; i++) {
+      //   /* compares, if equal replaces newFriend.score for that index.array with 1 */
+      //   if(newFriend.scores[i] == "1 (Strongly Disagree)") {
+      //     newFriend.scores[i] = 1;
+      //   } 
+      //   /* compares, if equal replaces newFriend.score for that index.array with 5 */
+      //   else if(newFriend.scores[i] == "5 (Strongly Agree)") {
+      //     newFriend.scores[i] = 5;
+      //   } 
+      //   /* sets all other newFriend.scores equal to their integer value from form data */
+      //   else {
+      //     newFriend.scores[i] = parseInt(newFriend.scores[i]);
+      //   }
+      // }
 
       /* The above also creates an array of scores referenced by using the index method of express and typing
         newfriend.scores[index]. 
