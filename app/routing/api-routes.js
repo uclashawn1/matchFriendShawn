@@ -46,9 +46,9 @@ module.exports = function (app) {
           */
       
          for(let i = 0; i < newFriend.scores.length; i++) {
-      newFriend.scores[i] == "1 (Strongly Disagree)" ? newFriend.scores[i] = 1 : 
+            newFriend.scores[i] == "1 (Strongly Disagree)" ? newFriend.scores[i] = 1 : 
             (newFriend[i] == "5 (Strongly Agree)" ? newFriend.scores[i] = 5 :
-              (newFriend.scores[i] = parseInt(newFriend.scores[i])));
+            (newFriend.scores[i] = parseInt(newFriend.scores[i])));
             }
 
       // for(let i = 0; i < newFriend.scores.length; i++) {
@@ -97,10 +97,10 @@ module.exports = function (app) {
       
       // Pushes new friend data from survey into "database" array
       friends.push(newFriend);
-      You = friends[15];
+      // You = friends[15];
       // return the best match with friends
       res.json(bestMatch);
-      res.json(You);
+      // res.json(You);
   });
 
 };

@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/clsavino/Friend-Finder---Node-and-Express-Servers.git"
+    "url": "git+https://github.com/uclashawn1/matchFriendShawn"
   },
-  "author": "Christi Savino",
-  "license": "ISC",
+  "author": "",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/clsavino/Friend-Finder---Node-and-Express-Servers/issues"
+    "url": "git+https://github.com/uclashawn1/matchFriendShawn"
   },
-  "homepage": "https://github.com/clsavino/Friend-Finder---Node-and-Express-Servers#readme",
+  "homepage": "git+https://github.com/uclashawn1/matchFriendShawn",
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
